@@ -6,8 +6,10 @@ const upgradeDisplay = document.getElementById('Upgrade1');
 const upgrade1button = document.getElementById('upgrade1button');
 clickerButton.addEventListener('click', function() {
    score+=1
-    scoreDisplay.textContent = "Score: " + (score + upgrade);
-    console.log("Current Score" + score + upgrade);
+   const currentDisplay = getLevel(score);
+   upgradeDisplay.textContent = "Level:" + currentDisplay;
+    scoreDisplay.textContent = "Score: " + (score + 1);
+    console.log("Current Score" + score);
 
   });
 upgrade1button.addEventListener('click', function(){
@@ -23,3 +25,7 @@ MainButton.addEventListener("click", function(){
         AddUpgrade();
     })
 })
+
+function getLevel(score){
+    return Math.floor(score/10)
+}
