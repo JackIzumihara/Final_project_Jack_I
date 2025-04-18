@@ -19,6 +19,7 @@ img {
     display: flex;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
+    color: gainsboro;
 }
 
 #Upgrade1{
