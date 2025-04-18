@@ -1,4 +1,47 @@
-.head {
-  justify-content: center;
-  font-style: sans-serif;
+body{
+    background-color: green;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: gainsboro;
+}
+
+
+img {
+    display: flex;
+    margin:auto;
+}
+
+#score {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gainsboro;
+}
+
+#Upgrade1{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Upgrade1Text{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#upgrade2{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Upgrades{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
