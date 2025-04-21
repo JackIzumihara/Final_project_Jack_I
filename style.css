@@ -56,3 +56,27 @@ img {
     font-family: Arial, Helvetica, sans-serif;
     color: gainsboro;
 }
+
+#Upgrade3Text{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gainsboro;
+}
+
+#upgrade3button{
+    display: flex;
+    justify-content: center;
+}
+
+#Upgrade4Text{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gainsboro;
+}
+
+#upgrade4button{
+    display: flex;
+    justify-content: center;
+}
