@@ -80,3 +80,15 @@ img {
     display: flex;
     justify-content: center;
 }
+
+#Upgrade5Text{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gainsboro;
+}
+
+#upgrade5button{
+    display: flex;
+    justify-content: center;
+}

@@ -8,6 +8,8 @@ const upgrade1button = document.getElementById('upgrade1button');
 const upgrade2button = document.getElementById('upgrade2button');
 const upgrade3button = document.getElementById('upgrade3button');
 const upgrade4button = document.getElementById('upgrade4button');
+const upgrade5button = document.getElementById('upgrade5button');
+
 
 clickerButton.addEventListener('click', function() {
    score += upgrade
@@ -32,7 +34,7 @@ upgrade1button.addEventListener('click', function(){
 
 upgrade2button.addEventListener('click', function(){
     if (score >= 100){
-        upgrade += 10;
+        upgrade += 15;
         score -= 100;
         scoreDisplay.textContent = "Diamonds mined: " + (score);
         console.log("Current Score" + score);
@@ -43,9 +45,9 @@ upgrade2button.addEventListener('click', function(){
 })
 
 upgrade3button.addEventListener('click', function(){
-    if (score >= 20000){
-        upgrade += 100;
-        score -= 20000;
+    if (score >= 100000){
+        upgrade += 15000;
+        score -= 100000;
         scoreDisplay.textContent = "Diamonds mined: " + (score);
         console.log("Current Score" + score);
         upgradeDisplay.textContent = "Upgrade Level: " + upgrade;
@@ -54,9 +56,20 @@ upgrade3button.addEventListener('click', function(){
 })
 
 upgrade4button.addEventListener('click', function(){
-    if (score >= 100000){
-        upgrade += 500;
-        score -= 100000;
+    if (score >= 100000000){
+        upgrade += 1500000;
+        score -= 100000000;
+        scoreDisplay.textContent = "Diamonds mined: " + (score);
+        console.log("Current Score" + score);
+        upgradeDisplay.textContent = "Upgrade Level: " + upgrade;
+        console.log("+500 Upgrade level");
+    }
+})
+
+upgrade5button.addEventListener('click', function(){
+    if (score >= 10000000000){
+        upgrade += 1500000000;
+        score -= 10000000000;
         scoreDisplay.textContent = "Diamonds mined: " + (score);
         console.log("Current Score" + score);
         upgradeDisplay.textContent = "Upgrade Level: " + upgrade;
