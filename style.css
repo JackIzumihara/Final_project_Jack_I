@@ -9,8 +9,38 @@ h1 {
     color: gainsboro;
 }
 
+#BlockUpgraderText{
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:gainsboro;
+}
 
-img {
+#BlockLevel{
+    display: flex;
+    justify-content: end;
+    font-family: Arial, Helvetica, sans-serif;
+    color:gainsboro;
+}
+
+#BlockLevelClicker{
+    display: flex;
+    margin-right: auto;
+}
+
+
+#clicker {
+    display: flex;
+    margin:auto;
+}
+
+#upgrade1button{
+    display:flex;
+    margin:auto;
+}
+
+#upgrade2button {
     display: flex;
     margin:auto;
 }
@@ -66,7 +96,7 @@ img {
 
 #upgrade3button{
     display: flex;
-    justify-content: center;
+    margin: auto;
 }
 
 #Upgrade4Text{
@@ -78,7 +108,7 @@ img {
 
 #upgrade4button{
     display: flex;
-    justify-content: center;
+    margin: auto;
 }
 
 #Upgrade5Text{
@@ -90,5 +120,5 @@ img {
 
 #upgrade5button{
     display: flex;
-    justify-content: center;
+    margin: auto;
 }
