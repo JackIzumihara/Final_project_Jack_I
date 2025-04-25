@@ -33,9 +33,9 @@ upgrade1button.addEventListener('click', function(){
 })
 
 upgrade2button.addEventListener('click', function(){
-    if (score >= 100){
-        upgrade += 15;
-        score -= 100;
+    if (score >= 500){
+        upgrade += 10;
+        score -= 500;
         scoreDisplay.textContent = "Diamonds mined: " + (score);
         console.log("Current Score" + score);
         upgradeDisplay.textContent = "Upgrade Level: " + upgrade;
@@ -45,34 +45,34 @@ upgrade2button.addEventListener('click', function(){
 })
 
 upgrade3button.addEventListener('click', function(){
-    if (score >= 100000){
-        upgrade += 15000;
-        score -= 100000;
+    if (score >= 10000){
+        upgrade += 500;
+        score -= 10000;
         scoreDisplay.textContent = "Diamonds mined: " + (score);
         console.log("Current Score" + score);
         upgradeDisplay.textContent = "Upgrade Level: " + upgrade;
-        console.log("+100 Upgrade level");
+        console.log("+500 Upgrade level");
     }
 })
 
 upgrade4button.addEventListener('click', function(){
-    if (score >= 100000000){
-        upgrade += 1500000;
-        score -= 100000000;
+    if (score >= 100000){
+        upgrade += 1000;
+        score -= 100000;
         scoreDisplay.textContent = "Diamonds mined: " + (score);
         console.log("Current Score" + score);
         upgradeDisplay.textContent = "Upgrade Level: " + upgrade;
-        console.log("+500 Upgrade level");
+        console.log("+1000 Upgrade level");
     }
 })
 
 upgrade5button.addEventListener('click', function(){
-    if (score >= 10000000000){
-        upgrade += 1500000000;
-        score -= 10000000000;
+    if (score >= 1000000){
+        upgrade += 15000;
+        score -= 1000000;
         scoreDisplay.textContent = "Diamonds mined: " + (score);
         console.log("Current Score" + score);
         upgradeDisplay.textContent = "Upgrade Level: " + upgrade;
-        console.log("+500 Upgrade level");
+        console.log("+15000 Upgrade level");
     }
 })
